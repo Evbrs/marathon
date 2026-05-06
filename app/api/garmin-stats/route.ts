@@ -11,10 +11,16 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-  const body = await req.json()
-  const stat: GarminStats = { ...body, id: body.id ?? ulid() }
-  const saved = await upsert('garmin_stats', stat)
-  return NextResponse.json(saved, { status: 201 })
+  try {
+    const body = await req.json()
+    const stat: GarminStats = { ...body, id: body.id ?? ulid() }
+    const saved = await upsert('garmin_stats', stat)
+    return NextResponse.json(saved, { status: 201 })
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e)
+    console.error('[garmin-stats POST]', msg)
+    return NextResponse.json({ error: msg }, { status: 500 })
+  }
 }
 
 export async function DELETE(req: Request) {
