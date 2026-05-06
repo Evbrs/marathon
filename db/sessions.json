@@ -1,0 +1,108 @@
+[
+  {
+    "id": "01KQZH6M31XYQZNTGHZHW08DME",
+    "date": "2026-04-16",
+    "type": "easy",
+    "source": "tcx",
+    "distance": 8,
+    "duration": 3147,
+    "avgPace": 393,
+    "avgHR": 158,
+    "maxHR": 173,
+    "avgCadence": 0,
+    "elevationGain": 0,
+    "laps": [
+      {
+        "index": 1,
+        "distance": 1,
+        "time": 417.708,
+        "avgHR": 140,
+        "maxHR": 155,
+        "avgPace": 417.708,
+        "cadence": 0
+      },
+      {
+        "index": 2,
+        "distance": 1,
+        "time": 393.357,
+        "avgHR": 156,
+        "maxHR": 162,
+        "avgPace": 393.357,
+        "cadence": 0
+      },
+      {
+        "index": 3,
+        "distance": 1,
+        "time": 395.374,
+        "avgHR": 156,
+        "maxHR": 162,
+        "avgPace": 395.374,
+        "cadence": 0
+      },
+      {
+        "index": 4,
+        "distance": 1,
+        "time": 386.696,
+        "avgHR": 160,
+        "maxHR": 168,
+        "avgPace": 386.696,
+        "cadence": 0
+      },
+      {
+        "index": 5,
+        "distance": 1,
+        "time": 386.623,
+        "avgHR": 162,
+        "maxHR": 165,
+        "avgPace": 386.623,
+        "cadence": 0
+      },
+      {
+        "index": 6,
+        "distance": 1,
+        "time": 401.648,
+        "avgHR": 162,
+        "maxHR": 165,
+        "avgPace": 401.648,
+        "cadence": 0
+      },
+      {
+        "index": 7,
+        "distance": 1,
+        "time": 387.792,
+        "avgHR": 165,
+        "maxHR": 168,
+        "avgPace": 387.792,
+        "cadence": 0
+      },
+      {
+        "index": 8,
+        "distance": 1,
+        "time": 376.614,
+        "avgHR": 167,
+        "maxHR": 173,
+        "avgPace": 376.614,
+        "cadence": 0
+      },
+      {
+        "index": 9,
+        "distance": 0.004889999999999999,
+        "time": 1.511,
+        "avgHR": 166,
+        "maxHR": 166,
+        "avgPace": 308.997955010225,
+        "cadence": 0
+      }
+    ],
+    "hrZones": {
+      "z1": 57,
+      "z2": 314,
+      "z3": 2738,
+      "z4": 47,
+      "z5": 0
+    },
+    "feeling": 3,
+    "notes": "3/10 en difficulté. à l'aise",
+    "aiReview": "Voici l'analyse complète de ta séance, Evan. 👇\n\n1. Évaluation globale\nLa séance est correcte sur le plan de l'effort perçu (3/5, 3/10 difficulté — tu t'es senti à l'aise), mais elle présente un problème structurel important : tu as couru trop vite pour une séance d'endurance fondamentale. À 6:33/km de moyenne avec une FC moyenne de 158 bpm, tu t'es retrouvé presque intégralement en Z3 (tempo/seuil aérobie bas), alors que l'objectif d'une sortie \"EF\" est de rester en Z1-Z2.\nPour un athlète dont l'allure Z2 réelle est 7:00–7:20/km pour 150–160 bpm, courir à 6:33/km avec 158 bpm signifie que la FC était correcte… mais l'allure trop rapide, ce qui pointe vers une dérive cardiaque progressive tout au long de la séance (visible dans les laps).\n\n2. Analyse technique\n  ::view-transition-group(*),\n  ::view-transition-old(*),\n  ::view-transition-new(*) {\n    animation-duration: 0.25s;\n    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);\n  }\nVvisualizeVvisualize show_widgetAllure — Tu cours 27 à 47 secondes au kilomètre trop vite pour une sortie EF. Le piège classique : la FC \"semble\" correcte en début de séance (140 bpm au km 1), mais sans ralentir suffisamment, la dérive cardiaque fait exploser la zone en fin de sortie.\nFréquence cardiaque — La progression de 140 → 167 bpm en 8 km à allure quasi-constante est le signal d'alarme principal. Une vraie Z2 devrait produire une FC stable ou très légèrement croissante (5–8 bpm max sur 8 km), pas +27 bpm.\nCadence — Donnée absente (0 spm), probablement non captée ou montre sans accéléromètre. C'est un angle mort important à corriger.\n\n3. Répartition FC — polarisation non respectée\nLa cible pour le modèle polarisé (80/20) est 80% en Z1-Z2, 20% en intensité. Tu es à 12% en Z1-Z2 et 88% en Z3-Z4 — l'inverse de l'objectif. Z3 est la zone \"grise\" : trop intense pour générer les adaptations aérobies de base, pas assez pour stimuler le seuil lactique. Courir systématiquement en Z3 sur les sorties faciles, c'est accumuler de la fatigue sans bénéfice ciblé — ce qu'on appelle le \"junk mileage\".\n\n4. Récupération\nLa séance représente une charge modérée-haute pour une sortie censée être facile. L'intensité cumulée est supérieure à ce qu'une EF devrait générer. Compte tenu du ressenti à 3/10 (tu t'es senti à l'aise malgré tout), ton niveau de forme actuel absorbe bien l'effort, mais la fatigue systémique est réelle même sans perception d'effort.\nRepos recommandé avant la prochaine séance : 24h minimum, idéalement 36–48h avant toute séance avec intensité. La prochaine sortie EF peut être réalisée dès le lendemain à condition de vraiment respecter l'allure 7:00–7:20.\n\n5. Recommandations concrètes\nRalentir de 30 à 45 secondes au kilomètre sur toutes les sorties EF. C'est la priorité absolue. 7:00–7:20/km doit devenir ton allure de confort, pas 6:30. Si la FC dépasse 158 bpm, tu marches 60 secondes. C'est contre-intuitif mais c'est ce qui construit l'aérobie pour le marathon.\nActiver la surveillance FC en temps réel sur ta montre. Programme une alerte au-dessus de 160 bpm sur tes sorties EF. Elle te servira de garde-fou dès le départ, avant que la dérive s'installe.\nEnregistrer la cadence à chaque séance. Vise 170–175 spm en endurance fondamentale. Une cadence basse (souvent <165 spm) amplifie les oscillations verticales et coûte de l'énergie inutile. Si ta montre ne capte pas la cadence seule, un capteur de foulée Garmin/Stryd à 50€ change la donne.\n\n6. Nutrition et récupération post-séance\nPour une séance de 52 minutes à intensité modérée, la fenêtre de récupération reste importante même si l'effort n'est pas maximal.\nDans les 30 minutes après la séance, privilégie des glucides à index moyen et des protéines sans lactose, soja ni amande : une banane avec 2–3 œufs durs, du fromage de brebis ou de la charcuterie maigre (jambon blanc), ou du riz avec du poulet si tu as de l'appétit. Les boissons de récupération à base d'avoine (lait d'avoine) fonctionnent bien pour toi et apportent glucides + protéines végétales sans tes intolérances.\nPour l'hydratation, vise 500 ml d'eau dans l'heure qui suit, avec une petite pincée de sel si tu transpires beaucoup (prévient les crampes sur les sorties longues à venir).\nEnfin, à 80 kg avec un objectif à 73 kg, pense à ne pas sous-alimenter les jours de séance — une restriction trop agressive sur les jours d'entraînement ralentit la récupération et l'adaptation musculaire. Le déficit calorique se gère mieux sur les jours de repos.\n\nEn résumé : la séance est une bonne première sortie enregistrée, mais elle illustre le défi classique de tout coureur qui vise le sub-3h30 : apprendre à courir vraiment lentement pour pouvoir courir vite le jour J. Tes prochaines EF à 7:10/km sembleront frustrantes au départ — elles sont pourtant le meilleur investissement que tu puisses faire pour Paris 2027."
+  }
+]

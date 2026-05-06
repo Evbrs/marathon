@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2026-05-06",
+    "vo2max": 51,
+    "lactatePace": 293,
+    "lactateHR": 181,
+    "predictions": {
+      "km5": 1463,
+      "km10": 3128,
+      "semi": 7107,
+      "marathon": 15826
+    },
+    "id": "01KQZJN1BK7X5D6JWC8426A24B"
+  }
+]

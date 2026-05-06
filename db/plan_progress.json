@@ -1,0 +1,20 @@
+[
+  {
+    "weekId": "w01",
+    "sessionIndex": 0,
+    "completed": false,
+    "id": "w01-0"
+  },
+  {
+    "weekId": "w01",
+    "sessionIndex": 1,
+    "completed": false,
+    "id": "w01-1"
+  },
+  {
+    "weekId": "w01",
+    "sessionIndex": 2,
+    "completed": false,
+    "id": "w01-2"
+  }
+]
