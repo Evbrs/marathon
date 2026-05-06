@@ -23,11 +23,11 @@ async function writeLocalJson<T>(name: string, data: T[]): Promise<void> {
 }
 
 async function readBlobJson<T>(name: string): Promise<T[]> {
-  const { list, get } = await import('@vercel/blob')
+  const { list } = await import('@vercel/blob')
   const { blobs } = await list({ prefix: `marathon/${name}.json`, limit: 1 })
   if (blobs.length === 0) return []
-  const res = await get(blobs[0].url)
-  if (!res) return []
+  const res = await fetch(blobs[0].downloadUrl)
+  if (!res.ok) return []
   return res.json()
 }
 
