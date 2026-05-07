@@ -36,6 +36,7 @@ async function writeBlobJson<T>(name: string, data: T[]): Promise<void> {
   await put(`marathon/${name}.json`, JSON.stringify(data), {
     access: 'private',
     addRandomSuffix: false,
+    allowOverwrite: true,
     contentType: 'application/json',
   })
 }
